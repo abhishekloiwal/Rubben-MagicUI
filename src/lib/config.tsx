@@ -160,9 +160,9 @@ export const siteConfig = {
         id: 1,
         title: "Connect Your Data",
         content:
-          "Securely sync with Salesforce, upload meeting notes, or import Preqin exports",
+          "Securely sync with your CRM, upload meeting notes, pitch decks, or import Preqin exports",
         image:
-          "https://images.unsplash.com/photo-1720371300677-ba4838fa0678?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2032&auto=format&fit=crop",
       },
       {
         id: 2,
@@ -170,7 +170,7 @@ export const siteConfig = {
         content:
           "Rubben extracts investor preferences, past interactions, and relationship context",
         image:
-          "https://images.unsplash.com/photo-1686170287433-c95faf6d3608?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2074&auto=format&fit=crop",
       },
       {
         id: 3,
@@ -178,7 +178,7 @@ export const siteConfig = {
         content:
           "Get weekly LP suggestions, deal matches, and personalized talking points",
         image:
-          "https://images.unsplash.com/photo-1720378042271-60aff1e1c538?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop",
       },
       {
         id: 4,
@@ -186,7 +186,7 @@ export const siteConfig = {
         content:
           "Monitor engagement rates, follow-up completion, and capital raised",
         image:
-          "https://images.unsplash.com/photo-1666882990322-e7f3b8df4f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2076&auto=format&fit=crop",
       },
     ],
   },

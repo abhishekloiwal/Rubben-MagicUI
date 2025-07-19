@@ -21,7 +21,7 @@ export function AssetCard({
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         {/* White overlay - high opacity by default, low opacity on hover to show colors */}
-        <div className="absolute w-full h-full top-0 left-0 bg-white transition-opacity duration-300 opacity-90 group-hover/card:opacity-30"></div>
+        <div className="absolute w-full h-full top-0 left-0 bg-white dark:bg-black transition-opacity duration-300 opacity-90 group-hover/card:opacity-30"></div>
         
         {/* Content - Title and subtitle, centered */}
         <div className="relative z-10 text-center">
