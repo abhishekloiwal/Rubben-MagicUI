@@ -12,11 +12,10 @@ export function TestimonialSection() {
     >
       <SectionHeader>
         <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-center text-balance">
-          Empower Your Workflow with AI
+          Interest from IR Teams
         </h2>
         <p className="text-muted-foreground text-center text-balance font-medium">
-          Ask your AI Agent for real-time collaboration, seamless integrations,
-          and actionable insights to streamline your operations.
+          Leading fund managers and placement agents are already expressing strong interest in Rubben&apos;s AI-powered investor intelligence platform.
         </p>
       </SectionHeader>
       <SocialProofTestimonials testimonials={testimonials} />

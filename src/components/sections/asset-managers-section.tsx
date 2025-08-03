@@ -16,7 +16,7 @@ const assetTypes = [
     name: "Real Estate",
     description: "Find partners for JVs in high-value projects",
     useCase: "Let Rubben scan through thousands of real estate investors to find the ideal partners for your next office tower, multifamily development, or industrial project.",
-    backgroundImage: "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80", // Original real estate image
+    backgroundImage: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80", // Modern office buildings
   },
   {
     id: 3,

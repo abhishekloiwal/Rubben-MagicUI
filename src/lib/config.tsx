@@ -621,123 +621,81 @@ export const siteConfig = {
   testimonials: [
     {
       id: "1",
-      name: "Sarah Chen",
-      role: "Director of IR at European PE Fund",
-      img: "https://randomuser.me/api/portraits/women/91.jpg",
+      name: "Henry Martin",
+      role: "Principal at Fuel Ventures",
+      img: "https://media.licdn.com/dms/image/v2/D4E03AQEp9YBt6xPaIw/profile-displayphoto-shrink_800_800/B4EZdo_DK6H0Ak-/0/1749813048856?e=1756339200&v=beta&t=AiqXFzgocOJq2J3f71pktFZsltL3wHLr0imLED7VOPc",
+      linkedin: "https://www.linkedin.com/in/henry--martin/",
       description: (
         <p>
-          Rubben saved me 5 hours per week on investor research.
+          Managing LP relationships across multiple funds is increasingly complex, and we often miss opportunities due to fragmented data.
           <Highlight>
-            The meeting prep alone is worth it - I never walk into an LP meeting unprepared anymore.
+            Rubben&apos;s AI-powered approach to investor intelligence could transform how we identify and engage with the right LPs at the right time.
           </Highlight>
+          The ability to automatically surface relevant market signals and generate personalized outreach would save our team hours each week while improving our fundraising success rate.
         </p>
       ),
     },
     {
       id: "2",
-      name: "Michael Torres",
-      role: "Capital Formation at Infrastructure Fund",
-      img: "https://randomuser.me/api/portraits/men/45.jpg",
+      name: "Joel Liew",
+      role: "Investment Associate at RAX Finance",
+      img: "https://www.raxfinance.nl/uploads/joel-website.png",
+      linkedin: "https://www.linkedin.com/in/joel-l-aa2556a4/",
       description: (
         <p>
-          We re-engaged 3 dormant LPs in our first month using Rubben&apos;s recommendations.
-          <Highlight>One committed $50M to our new fund.</Highlight>
+          As a real estate debt fund manager, we constantly struggle with investor outreach cycles and fragmented CRM data that makes it difficult to maintain meaningful LP relationships.
+          <Highlight>
+            Rubben&apos;s promise to automate investor re-engagement and provide intelligent document summarization addresses our most pressing operational challenges.
+          </Highlight>
+          Having a tool that can instantly prepare meeting briefs and surface relevant investor insights would dramatically improve our fundraising efficiency.
         </p>
       ),
     },
     {
       id: "3",
-      name: "Amanda Foster",
-      role: "VP Investor Relations at Real Estate Fund",
-      img: "https://randomuser.me/api/portraits/women/12.jpg",
+      name: "Roderick Verspagen",
+      role: "Investment Manager at EDGE",
+      img: "https://www.hec.edu/sites/default/files/styles/profile/public/2024-10/Roderick%20Verspagen-min_0.JPG?itok=rxmsHXnf",
+      linkedin: "https://www.linkedin.com/in/roderick-verspagen-95944a101/",
       description: (
         <p>
-          The Preqin integration and document parsing are game-changers.
-          <Highlight>What used to take days now happens in minutes.</Highlight>
+          We manage complex investor relationships across multiple jurisdictions, and keeping track of touchpoints, preferences, and engagement history is becoming increasingly challenging.
+          <Highlight>
+            Rubben&apos;s AI capabilities for intelligent relationship management and automated follow-ups could significantly enhance how we nurture our LP network.
+          </Highlight>
+          The platform&apos;s ability to analyze documents and extract actionable insights would help us make more informed decisions about which investors to prioritize and how to approach them.
         </p>
       ),
     },
     {
       id: "4",
-      name: "David Kim",
-      role: "Managing Director at Growth Equity Fund",
-      img: "https://randomuser.me/api/portraits/men/32.jpg",
+      name: "Josep Bellmunt",
+      role: "Private Equity Director at Rockfield Real Estate",
+      img: "https://www.rockfieldrealestate.com/wp-content/uploads/2024/09/Josep-final-3933-2048x2048.jpeg",
+      linkedin: "https://www.linkedin.com/in/josep-franch-bellmunt-01604931/",
       description: (
         <p>
-          <Highlight>Our follow-up rate improved by 85%</Highlight> after implementing Rubben.
-          The weekly LP recommendations are incredibly accurate.
+          With over €2 billion in AUM and an extensive investor base across Europe, our IR team spends countless hours on manual tasks like meeting preparation and investor research.
+          <Highlight>
+            Rubben&apos;s capabilities in automated call preparation, investor matching, and intelligent re-engagement could revolutionize how we manage capital formation.
+          </Highlight>
+          The potential to instantly access consolidated investor intelligence and receive AI-powered recommendations on which LPs to approach for specific strategies would be game-changing for our fundraising efforts.
         </p>
       ),
     },
     {
       id: "5",
-      name: "Elena Rodriguez",
-      role: "Head of IR at Credit Fund",
-      img: "https://randomuser.me/api/portraits/women/44.jpg",
+      name: "Mohamed Koubini",
+      role: "Managing Partner at Cornerstone Capital Solutions",
+      img: "https://cornerstone-csg.com/wp-content/uploads/2020/07/Foto-Mohamed-Koubini-Skype.jpg",
+      linkedin: "https://www.linkedin.com/in/mohamed-koubini-999b323/",
       description: (
         <p>
-          The market signal alerts helped us identify 4 new LPs interested in credit strategies.
-          <Highlight>Perfect timing for our fundraise.</Highlight>
-        </p>
-      ),
-    },
-    {
-      id: "6",
-      name: "James Mitchell",
-      role: "Partner at Venture Capital Firm",
-      img: "https://randomuser.me/api/portraits/men/15.jpg",
-      description: (
-        <p>
-          <Highlight>Rubben&apos;s deal matching is uncanny.</Highlight>
-          It correctly identified 8 LPs for our deeptech fund that we hadn&apos;t considered.
-        </p>
-      ),
-    },
-    {
-      id: "7",
-      name: "Priya Sharma",
-      role: "IR Director at Private Debt Fund",
-      img: "https://randomuser.me/api/portraits/women/68.jpg",
-      description: (
-        <p>
-          The CRM integration was seamless.
-          <Highlight>All our messy Salesforce data is now actionable intelligence.</Highlight>
-        </p>
-      ),
-    },
-    {
-      id: "8",
-      name: "Robert Chang",
-      role: "Principal at Fund of Funds",
-      img: "https://randomuser.me/api/portraits/men/22.jpg",
-      description: (
-        <p>
-          Meeting prep used to take hours of digging through emails.
-          <Highlight>Now it&apos;s a 2-minute briefing that covers everything.</Highlight>
-        </p>
-      ),
-    },
-    {
-      id: "9",
-      name: "Sophie Anderson",
-      role: "VP Capital Markets at REIT",
-      img: "https://randomuser.me/api/portraits/women/33.jpg",
-      description: (
-        <p>
-          <Highlight>The personalized outreach templates convert 3x better</Highlight>
-          than our generic emails. Each one feels hand-crafted.
-        </p>
-      ),
-    },
-    {
-      id: "10",
-      name: "Marcus Williams",
-      role: "IR Associate at Infrastructure Fund",
-      img: "https://randomuser.me/api/portraits/men/52.jpg",
-      description: (
-        <p>
-          As a junior team member, Rubben helps me punch above my weight.
-          <Highlight>I sound like I&apos;ve been doing this for decades.</Highlight>
+          As a placement agent supporting fund managers across PE, Private Debt, Infrastructure, and Real Estate, we coordinate hundreds of LP meetings and manage complex fundraising campaigns with dispersed materials.
+          <Highlight>
+            Rubben&apos;s AI-powered platform could transform how we organize roadshows, prepare fund managers for meetings, and track follow-up actions across multiple campaigns.
+          </Highlight>
+          The ability to instantly generate investor-specific talking points and maintain a comprehensive view of all touchpoints would make us significantly more effective in helping our clients raise capital.
         </p>
       ),
     },
@@ -790,10 +748,10 @@ export const siteConfig = {
     title: "Stop Missing Capital. Start Raising Smarter.",
     backgroundImage: "/agent-cta-background.png",
     button: {
-      text: "Get Started Free - No Credit Card Required",
+      text: "Contact Sales",
       href: "#",
     },
-    subtext: "14-day free trial. Full access. Cancel anytime.",
+    subtext: "Join leading funds getting early access to AI-powered investor intelligence.",
   },
   footerLinks: [
     {
