@@ -47,7 +47,7 @@ export function FourthBentoAnimation({
       if (containerRef.current) {
         const containerWidth =
           containerRef.current.getBoundingClientRect().width;
-        const itemWidth = 250;
+        const itemWidth = 200;
         const numberOfItems = 3;
         const totalItemsWidth = itemWidth * numberOfItems;
         const availableSpace = containerWidth - totalItemsWidth;
@@ -56,7 +56,9 @@ export function FourthBentoAnimation({
         const newTranslateXValues = Array.from(
           { length: numberOfItems },
           (_, index) => {
-            return (itemWidth + gap) * index * 0.3;
+            // Add extra offset for the third item (Follow-up)
+            const extraOffset = index === 2 ? 80 : 0;
+            return (itemWidth + gap) * index * 0.55 + extraOffset;
           },
         );
         setTranslateXValues(newTranslateXValues);
@@ -214,9 +216,9 @@ export function FourthBentoAnimation({
                 duration: 0.3,
                 delay: startAnimationDelay + index * 0.2,
               }}
-              className={`flex items-center h-8 justify-center gap-2 rounded-lg w-[250px] p-2 shadow-[0px_9px_5px_0px_#00000005,0px_4px_4px_0px_#00000009,0px_1px_2px_0px_#00000010] ${boxConfigs[index].className}`}
+              className={`flex items-center h-7 justify-center gap-2 rounded-lg w-[200px] p-2 shadow-[0px_9px_5px_0px_#00000005,0px_4px_4px_0px_#00000009,0px_1px_2px_0px_#00000010] ${boxConfigs[index].className}`}
             >
-              <p className="font-medium text-sm">{boxConfigs[index].title}</p>
+              <p className="font-medium text-xs">{boxConfigs[index].title}</p>
             </motion.div>
           ))}
         </AnimatePresence>

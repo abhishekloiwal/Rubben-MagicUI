@@ -65,8 +65,8 @@ export const siteConfig = {
       "AI agent for Investor Relations and Business Development teams to augment investment & fundraising processes. Know who to contact, why now, and what to say.",
     cta: {
       primary: {
-        text: "Watch Video",
-        href: "#",
+        text: "Launch App",
+        href: "https://app.rubbenai.com",
       },
       secondary: {
         text: "Book Demo",
