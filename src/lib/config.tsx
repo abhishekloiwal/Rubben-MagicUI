@@ -758,7 +758,7 @@ export const siteConfig = {
       title: "Company",
       links: [
         { id: 1, title: "About", url: "#" },
-        { id: 2, title: "Careers", url: "#" },
+        { id: 2, title: "Careers", url: "/careers" },
         { id: 3, title: "Privacy", url: "#" },
         { id: 4, title: "Security", url: "#" },
         { id: 5, title: "Terms", url: "#" },
@@ -776,7 +776,7 @@ export const siteConfig = {
     {
       title: "Resources",
       links: [
-        { id: 10, title: "Blog", url: "#" },
+        { id: 10, title: "Blog", url: "/blog" },
         { id: 11, title: "Help Center", url: "#" },
         { id: 12, title: "API Docs", url: "#" },
         { id: 13, title: "Status", url: "#" },
