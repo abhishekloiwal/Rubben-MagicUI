@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
               <section className="space-y-4">
                 <h2 className="text-2xl font-medium tracking-tight text-foreground">Introduction</h2>
                 <p className="leading-relaxed">
-                  Rubben AI, Inc. ("Rubben," "we," "us," or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered investor intelligence platform and related services (collectively, the "Services").
+                  Rubben AI, Inc. (&quot;Rubben,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered investor intelligence platform and related services (collectively, the &quot;Services&quot;).
                 </p>
                 <p className="leading-relaxed">
                   By using our Services, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our Services.
@@ -192,7 +192,7 @@ export default function PrivacyPolicyPage() {
 
               {/* Children's Privacy */}
               <section className="space-y-4">
-                <h2 className="text-2xl font-medium tracking-tight text-foreground">Children's Privacy</h2>
+                <h2 className="text-2xl font-medium tracking-tight text-foreground">Children&apos;s Privacy</h2>
                 <p className="leading-relaxed">
                   Our Services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If we become aware that we have collected information from a child under 18, we will take steps to delete such information.
                 </p>
@@ -223,7 +223,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>Posting the updated policy on our website</li>
-                  <li>Updating the "Last updated" date at the top of this policy</li>
+                  <li>Updating the &quot;Last updated&quot; date at the top of this policy</li>
                   <li>Sending an email notification for significant changes</li>
                 </ul>
                 <p className="leading-relaxed">
