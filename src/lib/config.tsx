@@ -759,7 +759,7 @@ export const siteConfig = {
       links: [
         { id: 1, title: "About", url: "#" },
         { id: 2, title: "Careers", url: "/careers" },
-        { id: 3, title: "Privacy", url: "#" },
+        { id: 3, title: "Privacy", url: "/privacy-policy" },
         { id: 4, title: "Security", url: "#" },
         { id: 5, title: "Terms", url: "#" },
       ],
