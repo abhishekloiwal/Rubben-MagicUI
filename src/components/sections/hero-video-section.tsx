@@ -10,7 +10,7 @@ export function HeroVideoSection() {
             controls
             preload="metadata"
           >
-            <source src="/Rubben-LandingPage-Demo.mp4" type="video/mp4" />
+            <source src="https://raw.githubusercontent.com/abhishekloiwal/Rubben-MagicUI/main/public/Rubben-LandingPage-Demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
