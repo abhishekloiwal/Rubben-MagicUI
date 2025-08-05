@@ -5,13 +5,12 @@ export function HeroVideoSection() {
         <div className="relative shadow-2xl rounded-2xl overflow-hidden border border-border bg-background">
           <video
             className="w-full h-auto"
-            autoPlay
             loop
-            muted
             playsInline
             controls
+            preload="metadata"
           >
-            <source src="/LandingPage-Demo.mp4" type="video/mp4" />
+            <source src="/Rubben-LandingPage-Demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
