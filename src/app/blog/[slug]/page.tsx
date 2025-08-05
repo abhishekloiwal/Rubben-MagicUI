@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 
 interface BlogPost {
@@ -864,7 +863,7 @@ The technology exists. The ROI is proven. The only question remaining is: How mu
 };
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -873,8 +872,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function BlogPostPage({ params }: PageProps) {
-  const post = blogPosts[params.slug];
+export default async function BlogPostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = blogPosts[slug];
 
   if (!post) {
     notFound();
@@ -994,7 +994,6 @@ export default function BlogPostPage({ params }: PageProps) {
               }
               
               // Handle bold text
-              let formattedParagraph = paragraph;
               if (paragraph.includes('**')) {
                 const parts = paragraph.split('**');
                 return (
