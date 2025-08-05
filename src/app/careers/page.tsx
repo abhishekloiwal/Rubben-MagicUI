@@ -1,16 +1,26 @@
 import Link from "next/link";
-import { Icons } from "@/components/icons";
+import Image from "next/image";
 
 export default function CareersPage() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen w-full relative overflow-hidden">
-      {/* Diagonal Stripes */}
-      <div className="absolute top-0 -left-4 md:-left-14 h-full w-4 md:w-14 text-primary/5 bg-[size:10px_10px] [background-image:repeating-linear-gradient(315deg,currentColor_0_1px,#0000_0_50%)]"></div>
-      <div className="absolute top-0 -right-4 md:-right-14 h-full w-4 md:w-14 text-primary/5 bg-[size:10px_10px] [background-image:repeating-linear-gradient(315deg,currentColor_0_1px,#0000_0_50%)]"></div>
-      
+    <main className="flex flex-col items-center justify-center min-h-screen w-full">
       {/* Hero Section */}
-      <section className="w-full py-20 px-6 border-b border-border relative z-10">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
+      <section className="w-full py-20 px-6 border-b border-border relative overflow-hidden">
+        {/* Diagonal stripe pattern on sides - same as growth section */}
+        <div className="absolute top-0 -left-4 md:-left-14 h-full w-4 md:w-14 text-gray-950/5 dark:text-gray-50/5" 
+             style={{ 
+               backgroundImage: 'repeating-linear-gradient(315deg, currentColor 0px, currentColor 1px, transparent 1px, transparent 50%)',
+               backgroundSize: '10px 10px' 
+             }}>
+        </div>
+        <div className="absolute top-0 -right-4 md:-right-14 h-full w-4 md:w-14 text-gray-950/5 dark:text-gray-50/5" 
+             style={{ 
+               backgroundImage: 'repeating-linear-gradient(315deg, currentColor 0px, currentColor 1px, transparent 1px, transparent 50%)',
+               backgroundSize: '10px 10px' 
+             }}>
+        </div>
+        
+        <div className="max-w-4xl mx-auto text-center space-y-6 relative z-10">
           <h1 className="text-4xl md:text-5xl font-medium tracking-tighter">
             Careers at Rubben
           </h1>
@@ -22,8 +32,22 @@ export default function CareersPage() {
       </section>
 
       {/* Why Work With Us */}
-      <section className="w-full py-20 px-6 border-b border-border relative z-10">
-        <div className="max-w-4xl mx-auto">
+      <section className="w-full py-20 px-6 border-b border-border relative overflow-hidden">
+        {/* Diagonal stripe pattern on sides - same as growth section */}
+        <div className="absolute top-0 -left-4 md:-left-14 h-full w-4 md:w-14 text-gray-950/5 dark:text-gray-50/5" 
+             style={{ 
+               backgroundImage: 'repeating-linear-gradient(315deg, currentColor 0px, currentColor 1px, transparent 1px, transparent 50%)',
+               backgroundSize: '10px 10px' 
+             }}>
+        </div>
+        <div className="absolute top-0 -right-4 md:-right-14 h-full w-4 md:w-14 text-gray-950/5 dark:text-gray-50/5" 
+             style={{ 
+               backgroundImage: 'repeating-linear-gradient(315deg, currentColor 0px, currentColor 1px, transparent 1px, transparent 50%)',
+               backgroundSize: '10px 10px' 
+             }}>
+        </div>
+        
+        <div className="max-w-4xl mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl font-medium tracking-tighter">
@@ -31,7 +55,7 @@ export default function CareersPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  At Rubben, we're building the future of AI-powered investor intelligence. 
+                  At Rubben, we&apos;re building the future of AI-powered investor intelligence. 
                   We are a team of passionate innovators dedicated to transforming how 
                   alternative asset managers engage with their investors and raise capital.
                 </p>
@@ -44,6 +68,7 @@ export default function CareersPage() {
               </div>
             </div>
             <div className="relative rounded-xl overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop"
                 alt="Rubben team collaboration"
@@ -55,8 +80,22 @@ export default function CareersPage() {
       </section>
 
       {/* Our Team Environment */}
-      <section className="w-full py-20 px-6 border-b border-border relative z-10">
-        <div className="max-w-4xl mx-auto space-y-12">
+      <section className="w-full py-20 px-6 border-b border-border relative overflow-hidden">
+        {/* Diagonal stripe pattern on sides - same as growth section */}
+        <div className="absolute top-0 -left-4 md:-left-14 h-full w-4 md:w-14 text-gray-950/5 dark:text-gray-50/5" 
+             style={{ 
+               backgroundImage: 'repeating-linear-gradient(315deg, currentColor 0px, currentColor 1px, transparent 1px, transparent 50%)',
+               backgroundSize: '10px 10px' 
+             }}>
+        </div>
+        <div className="absolute top-0 -right-4 md:-right-14 h-full w-4 md:w-14 text-gray-950/5 dark:text-gray-50/5" 
+             style={{ 
+               backgroundImage: 'repeating-linear-gradient(315deg, currentColor 0px, currentColor 1px, transparent 1px, transparent 50%)',
+               backgroundSize: '10px 10px' 
+             }}>
+        </div>
+        
+        <div className="max-w-4xl mx-auto space-y-12 relative z-10">
           <h2 className="text-3xl font-medium tracking-tighter text-center">
             Our Team Environment
           </h2>
@@ -102,7 +141,7 @@ export default function CareersPage() {
       </section>
 
       {/* Current Openings */}
-      <section className="w-full py-20 px-6 border-b border-border relative z-10">
+      <section className="w-full py-20 px-6 border-b border-border">
         <div className="max-w-4xl mx-auto space-y-8">
           <h2 className="text-3xl font-medium tracking-tighter text-center">
             Current Openings
@@ -113,31 +152,30 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* Connect With Us */}
-      <section className="w-full py-20 px-6 relative z-10">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-secondary/5 border border-secondary/20 rounded-2xl p-8 md:p-12 text-center space-y-6">
-            <h2 className="text-3xl font-medium tracking-tighter">
-              Connect With Us
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Even though we are not hiring, we're always interested in connecting with 
-              talented professionals passionate about AI and investor intelligence. 
-              Feel free to send us your resume for future consideration.
-            </p>
-            <div className="flex items-center gap-4 justify-center">
-              <Link
-                href="mailto:careers@rubben.ai"
-                className="bg-secondary h-10 flex items-center justify-center text-sm font-normal tracking-wide rounded-full text-primary-foreground dark:text-secondary-foreground px-6 shadow-[inset_0_1px_2px_rgba(255,255,255,0.25),0_3px_3px_-1.5px_rgba(16,24,40,0.06),0_1px_1px_rgba(16,24,40,0.08)] border border-white/[0.12] hover:bg-secondary/80 transition-all ease-out active:scale-95"
-              >
-                Get in Touch
-              </Link>
-              <Link
-                href="/"
-                className="h-10 flex items-center justify-center px-5 text-sm font-normal tracking-wide text-primary rounded-full transition-all ease-out active:scale-95 bg-white dark:bg-background border border-[#E5E7EB] dark:border-[#27272A] hover:bg-white/80 dark:hover:bg-background/80"
-              >
-                Back to Home
-              </Link>
+      {/* Connect With Us - CTA Section with blue gradient */}
+      <section className="flex flex-col items-center justify-center w-full">
+        <div className="w-full">
+          <div className="h-[400px] md:h-[400px] overflow-hidden shadow-xl w-full border border-border rounded-xl bg-secondary relative z-20">
+            <Image
+              src="/agent-cta-background.png"
+              alt="Careers CTA Background"
+              className="absolute inset-0 w-full h-full object-cover object-right md:object-center"
+              fill
+              priority
+            />
+            <div className="absolute inset-0 -top-32 md:-top-40 flex flex-col items-center justify-center">
+              <h1 className="text-white text-4xl md:text-6xl font-medium tracking-tighter max-w-xs md:max-w-xl text-center">
+                Connect With Us
+              </h1>
+              <div className="absolute bottom-10 flex flex-col items-center justify-center gap-2">
+                <Link
+                  href="mailto:careers@rubben.ai"
+                  className="bg-white text-black font-semibold text-sm h-10 w-fit px-4 rounded-full flex items-center justify-center shadow-md"
+                >
+                  Get in Touch
+                </Link>
+                <span className="text-white text-sm">Feel free to send us your resume for future consideration</span>
+              </div>
             </div>
           </div>
         </div>

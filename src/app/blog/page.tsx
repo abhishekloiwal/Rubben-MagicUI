@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Icons } from "@/components/icons";
 
 export default function BlogPage() {
   return (
@@ -33,7 +32,7 @@ export default function BlogPage() {
             Blog Coming Soon
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mx-auto">
-            We're working on bringing you insights, best practices, and the latest updates
+            We&apos;re working on bringing you insights, best practices, and the latest updates
             in investor relations and fundraising.
           </p>
         </div>

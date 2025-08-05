@@ -60,9 +60,9 @@ export const siteConfig = {
   hero: {
     badgeIcon: "",
     badge: "AI-Powered Investor Intelligence",
-    title: "Revolutionizing Fundraising for Alternative Asset Managers",
+    title: "The AI Co-Pilot for Fundraising in Private Markets",
     description:
-      "AI agent for Investor Relations and Business Development teams to augment investment & fundraising processes. Know who to contact, why now, and what to say.",
+      "Rubben helps IR teams focus on what matters: The right LPs, the right timing, and the right message.",
     cta: {
       primary: {
         text: "Launch App",
