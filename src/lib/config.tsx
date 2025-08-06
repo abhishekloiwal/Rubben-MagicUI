@@ -79,73 +79,47 @@ export const siteConfig = {
     companyLogos: [
       {
         id: 1,
-        name: "Schroders",
+        name: "Rax Finance",
         logo: (
-          <span className="text-2xl font-semibold tracking-tight dark:text-white text-black">
-            Schroders
+          <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
+            Rax<span className="font-light">finance</span>
           </span>
         ),
       },
       {
         id: 2,
-        name: "Blackstone",
+        name: "Rockfield Real Estate",
         logo: (
-          <span className="text-2xl font-semibold tracking-tight dark:text-white text-black">
-            Blackstone
-          </span>
+          <div className="flex flex-col items-center">
+            <span className="text-xl font-bold tracking-tight text-gray-700 dark:text-gray-300">
+              ROCKFIELD
+            </span>
+            <span className="text-xs font-medium tracking-wider text-gray-500 dark:text-gray-400 uppercase">
+              REAL ESTATE
+            </span>
+          </div>
         ),
       },
       {
         id: 3,
-        name: "Brookfield",
+        name: "Fuel Ventures",
         logo: (
-          <span className="text-2xl font-semibold tracking-tight dark:text-white text-black">
-            Brookfield
-          </span>
+          <div className="flex flex-col items-center -space-y-1">
+            <span className="text-xl font-bold tracking-tight text-gray-700 dark:text-gray-300">
+              Fuel
+            </span>
+            <span className="text-xl font-light tracking-tight text-gray-700 dark:text-gray-300">
+              Ventures
+            </span>
+          </div>
         ),
       },
       {
         id: 4,
-        name: "Apollo",
+        name: "Cornerstone Capital Solutions",
         logo: (
-          <span className="text-2xl font-semibold tracking-tight dark:text-white text-black">
-            Apollo
-          </span>
-        ),
-      },
-      {
-        id: 5,
-        name: "KKR",
-        logo: (
-          <span className="text-2xl font-semibold tracking-tight dark:text-white text-black">
-            KKR
-          </span>
-        ),
-      },
-      {
-        id: 6,
-        name: "Carlyle",
-        logo: (
-          <span className="text-2xl font-semibold tracking-tight dark:text-white text-black">
-            Carlyle
-          </span>
-        ),
-      },
-      {
-        id: 7,
-        name: "Preqin",
-        logo: (
-          <span className="text-xl font-normal italic tracking-tight dark:text-white text-black">
-            Preqin Partner
-          </span>
-        ),
-      },
-      {
-        id: 8,
-        name: "Salesforce",
-        logo: (
-          <span className="text-xl font-normal italic tracking-tight dark:text-white text-black">
-            Salesforce Partner
+          <span className="text-sm font-medium tracking-wider text-gray-700 dark:text-gray-300 uppercase">
+            Cornerstone Capital Solutions
           </span>
         ),
       },
