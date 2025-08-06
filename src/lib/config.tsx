@@ -93,7 +93,7 @@ export const siteConfig = {
         url: "https://www.rockfieldrealestate.com/",
         logo: (
           <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
-            Rockfield
+            Rockfield Real Estate
           </span>
         ),
       },
@@ -113,7 +113,7 @@ export const siteConfig = {
         url: "https://cornerstone-csg.com/",
         logo: (
           <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
-            Cornerstone
+            Cornerstone CSG
           </span>
         ),
       },
