@@ -15,7 +15,9 @@ export function CompanyShowcase() {
       <div className="grid w-full max-w-7xl grid-cols-2 md:grid-cols-4 overflow-hidden border-y border-border items-center justify-center z-20">
         {companyShowcase.companyLogos.map((logo) => (
           <Link
-            href="#"
+            href={logo.url || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group w-full h-28 flex items-center justify-center relative p-4 before:absolute before:-left-1 before:top-0 before:z-10 before:h-screen before:w-px before:bg-border before:content-[''] after:absolute after:-top-1 after:left-0 after:z-10 after:h-px after:w-screen after:bg-border after:content-['']"
             key={logo.id}
           >

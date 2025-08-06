@@ -80,46 +80,40 @@ export const siteConfig = {
       {
         id: 1,
         name: "Rax Finance",
+        url: "https://www.raxfinance.nl/",
         logo: (
           <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
-            Rax<span className="font-light">finance</span>
+            Rax Finance
           </span>
         ),
       },
       {
         id: 2,
         name: "Rockfield Real Estate",
+        url: "https://www.rockfieldrealestate.com/",
         logo: (
-          <div className="flex flex-col items-center">
-            <span className="text-xl font-bold tracking-tight text-gray-700 dark:text-gray-300">
-              ROCKFIELD
-            </span>
-            <span className="text-xs font-medium tracking-wider text-gray-500 dark:text-gray-400 uppercase">
-              REAL ESTATE
-            </span>
-          </div>
+          <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
+            Rockfield
+          </span>
         ),
       },
       {
         id: 3,
         name: "Fuel Ventures",
+        url: "https://www.fuel.ventures/",
         logo: (
-          <div className="flex flex-col items-center -space-y-1">
-            <span className="text-xl font-bold tracking-tight text-gray-700 dark:text-gray-300">
-              Fuel
-            </span>
-            <span className="text-xl font-light tracking-tight text-gray-700 dark:text-gray-300">
-              Ventures
-            </span>
-          </div>
+          <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
+            Fuel Ventures
+          </span>
         ),
       },
       {
         id: 4,
         name: "Cornerstone Capital Solutions",
+        url: "https://cornerstone-csg.com/",
         logo: (
-          <span className="text-sm font-medium tracking-wider text-gray-700 dark:text-gray-300 uppercase">
-            Cornerstone Capital Solutions
+          <span className="text-xl font-medium tracking-tight text-gray-700 dark:text-gray-300">
+            Cornerstone
           </span>
         ),
       },
