@@ -82,11 +82,10 @@ export function NavMenu() {
     const element = document.getElementById(targetId);
 
     if (element) {
-      // Set manual scroll flag
+      // We're on the home page, scroll to section
       setIsManualScroll(true);
-
-      // Immediately update nav state
       setActiveSection(targetId);
+      
       const navItem = e.currentTarget.parentElement;
       if (navItem) {
         const rect = navItem.getBoundingClientRect();
@@ -94,20 +93,20 @@ export function NavMenu() {
         setWidth(rect.width);
       }
 
-      // Calculate exact scroll position
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - 100; // 100px offset
+      const offsetPosition = elementPosition + window.pageYOffset - 100;
 
-      // Smooth scroll to exact position
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",
       });
 
-      // Reset manual scroll flag after animation completes
       setTimeout(() => {
         setIsManualScroll(false);
-      }, 500); // Adjust timing to match scroll animation duration
+      }, 500);
+    } else {
+      // We're on a different page, navigate to home page with hash
+      window.location.href = `/${item.href}`;
     }
   };
 

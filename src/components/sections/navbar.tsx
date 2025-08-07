@@ -195,11 +195,17 @@ export function Navbar() {
                           href={item.href}
                           onClick={(e) => {
                             e.preventDefault();
-                            const element = document.getElementById(
-                              item.href.substring(1),
-                            );
-                            element?.scrollIntoView({ behavior: "smooth" });
-                            setIsDrawerOpen(false);
+                            const targetId = item.href.substring(1);
+                            const element = document.getElementById(targetId);
+                            
+                            if (element) {
+                              // We're on the home page, scroll to section
+                              element.scrollIntoView({ behavior: "smooth" });
+                              setIsDrawerOpen(false);
+                            } else {
+                              // We're on a different page, navigate to home page with hash
+                              window.location.href = `/${item.href}`;
+                            }
                           }}
                           className={`underline-offset-4 hover:text-primary/80 transition-colors ${
                             activeSection === item.href.substring(1)
