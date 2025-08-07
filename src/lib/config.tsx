@@ -518,11 +518,11 @@ export const siteConfig = {
   },
   quoteSection: {
     quote:
-      "We re-engaged 3 dormant LPs in our first month using Rubben's recommendations. One committed $50M to our new fund.",
+      "We re-engaged 3 dormant LPs in our first week of using Rubben's recommendations. One of which is currently in the DD process for our newest vintage.",
     author: {
-      name: "Michael Torres",
-      role: "Capital Formation at Infrastructure Fund",
-      image: "https://randomuser.me/api/portraits/men/91.jpg",
+      name: "Josep Bellmunt",
+      role: "Private Equity Director at Rockfield Real Estate",
+      image: "https://www.rockfieldrealestate.com/wp-content/uploads/2024/09/Josep-final-3933-2048x2048.jpeg",
     },
   },
   pricing: {
