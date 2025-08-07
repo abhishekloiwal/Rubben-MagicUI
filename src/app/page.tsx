@@ -21,7 +21,7 @@ export default function Home() {
       <FeatureSection />
       <AssetManagersSection />
       <GrowthSection />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <TestimonialSection />
       <FAQSection />
       <CTASection />
